@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Categories, productItems } from '../assets/data'
 import HomeImage from '../assets/images/home-img.png'
-import Info from '../components/info'
+import Info from '../components/Info'
 import CategorySection from '../components/CategorySection'
 import { setProducts } from '../redux/productSlice'
 import { useDispatch, useSelector } from 'react-redux'
