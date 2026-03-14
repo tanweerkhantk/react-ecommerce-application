@@ -10,6 +10,8 @@ import Checkout from './pages/Checkout'
 import Order from './pages/Order'
 import FilterData from './pages/FilterData'
 import ProductDetail from './pages/ProductDetail'
+import About from './pages/About'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
     <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/about' element={<About />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
         <Route path='/shop' element={<Shop />}></Route>
         <Route path='/cart' element={<Cart />}></Route>
         <Route path='/checkout' element={<Checkout setOrder={setOrder} />}></Route>
