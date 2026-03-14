@@ -12,6 +12,7 @@ import FilterData from './pages/FilterData'
 import ProductDetail from './pages/ProductDetail'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import BackToTop from './components/BackToTop'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
 
   return (
+    <div>
     <BrowserRouter>
     <Navbar />
       <Routes>
@@ -34,6 +36,8 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    <BackToTop />
+    </div>
   )
 }
 

@@ -16,27 +16,31 @@ const About = () => {
             
         <div>
             <h2 className='text-2xl font-semibold mb-4'>Welcome to e-Cart</h2>
-            <p className='text-gray-600n mb-6'>eCart is a modern ecommerce platform where you can find
+            <p className='text-gray-600 mb-6'>eCart is a modern ecommerce platform where you can find
                 high quality products at the best prices. We focus on
                 delivering best customer experience and fast delivery services
             </p>
             <div className='grid grid-cols-4 gap-6 mt-6'>
-                <div className='p-4 bg-white rounded-lg shadow'>
+                <div className='p-4 bg-white rounded-lg shadow hover:shadow-xl hover:translate-y-2 
+                hover:bg-green-50 transition-all duration-300 cursor-pointer'>
                     <div><FaProductHunt className='text-3xl text-green-500 mb-2'/></div>
                     <h3 className='font-semibold text-lg'>10K+</h3>
                     <p className='text-gray-500 text-sm'>Products</p>
                 </div>
-                <div className='p-4 bg-white rounded-lg shadow'>
+                <div className='p-4 bg-white rounded-lg shadow hover:shadow-xl hover:translate-y-2 
+                hover:bg-green-50 transition-all duration-300 cursor-pointer'>
                     <div><FaUserAlt className='text-3xl text-green-500 mb-2'/></div>
                     <h3 className='font-semibold text-lg'>5K+</h3>
                     <p className='text-gray-500 text-sm'>Happy Customers</p>
                 </div>
-                <div className='p-4 bg-white rounded-lg shadow'>
+                <div className='p-4 bg-white rounded-lg shadow hover:shadow-xl hover:translate-y-2 
+                hover:bg-green-50 transition-all duration-300 cursor-pointer'>
                     <div><ImCheckboxChecked className='text-3xl text-green-500 mb-2'/></div>
                     <h3 className='font-semibold text-lg'>100+</h3>
                     <p className='text-gray-500 text-sm'>Brands</p>
                 </div>
-                <div className='p-4 bg-white rounded-lg shadow'>
+                <div className='p-4 bg-white rounded-lg shadow hover:shadow-xl hover:translate-y-2 
+                hover:bg-green-50 transition-all duration-300 cursor-pointer'>
                     <div><BiSupport className='text-3xl text-green-500 mb-2'/></div>
                     <h3 className='font-semibold text-lg'>24/7</h3>
                     <p className='text-gray-500 text-sm'>Support</p>

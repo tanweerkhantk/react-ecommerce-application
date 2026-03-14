@@ -22,7 +22,7 @@ const Home = () => {
      <div className='container mx-auto py-4 flex flex-col md:flex-row space-x-2'>
       <div className='w-full md:w-3/12'>
           <div className='bg-green-500 text-white text-xs font-bold px-2 py-2'>Product By Categories</div>
-           <ul className='space-y-4 bg-gray-100 p-3'>
+           <ul className='space-y-4 bg-gray-100 h-85 p-3'>
           {Categories.map((category, index) => (
             <li key={index} className='flex items-center text-sm font-medium'>
               <div className='w-2 h-2 border border-green-500 rounded-full mr-2'></div>
@@ -47,7 +47,7 @@ const Home = () => {
       <CategorySection />
 
           <div className='container mx-auto py-12'>
-            <h2 className='text-2xl font-bold mb-6 text-center'>Top Products</h2>
+            <h2 className='text-2xl font-bold mb-6 text-center text-green-500'>Top Products</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 cursor-pointer'>
               {products.products.slice(0,5).map(((product) =>(
                 <ProductCard product={product}/>
