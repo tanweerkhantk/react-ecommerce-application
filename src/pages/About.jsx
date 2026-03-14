@@ -6,7 +6,7 @@ import { BiSupport } from 'react-icons/bi'
 
 const About = () => {
   return (
-    <div className='bg-green-100 min-h-screen py-16 md:px-16 lg:px-24'>
+    <div className='bg-green-50 min-h-screen py-16 md:px-16 lg:px-24'>
       <div className='max-w-6xl mx-auto'>
         <h1 className='text-4xl font-bold text-center mb-12 text-green-500'>About Us</h1>
         <div className='grid md:grid-cols-2 lg:grid-cols-2 gap-12 items-center'>
