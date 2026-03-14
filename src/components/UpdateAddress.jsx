@@ -8,6 +8,7 @@ const UpdateAddress = ({setAddress, setIsModelOpen}) => {
     }
   return (
     <div>
+      <h3 className='text-center text-green-500 text-2xl mb-2 font-bold'>Update New Address</h3>
       <input type="text"
       placeholder='Enter new address'
       className='border border-gray-300 rounded-xl p-2 w-full mb-4'
